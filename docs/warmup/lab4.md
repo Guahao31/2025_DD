@@ -109,9 +109,9 @@ Vivado 无法读取 Logisim 的工程文件或原理图文件，需要通过将 
 
 <img src="../pic/lab4/top_module.png" style="zoom:80%">
 
-**添加用于仿真的文件**，本节实验中，我们提供了用到的[仿真文件](../attachment/lab4_tb.v)。选择 `Add or Create Simulation Sources` 将仿真文件添加进入工程。  
+**添加用于仿真的文件**，本节实验中，我们提供了用到的[仿真文件](attachment/lab4_tb.v)。选择 `Add or Create Simulation Sources` 将仿真文件添加进入工程。  
 
-**添加约束文件**，本节实验中我们同样提供了需要的[约束文件](../attachment/constraints_lab4.xdc)，选择 `Add or Create Constraints` 将约束文件添加进入工程。  
+**添加约束文件**，本节实验中我们同样提供了需要的[约束文件](attachment/constraints_lab4.xdc)，选择 `Add or Create Constraints` 将约束文件添加进入工程。  
 
 ### 仿真
 

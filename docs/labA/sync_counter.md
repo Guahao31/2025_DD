@@ -107,7 +107,7 @@ module Top(
 endmodule
 ```
 
-子模块 `clk_1s` 文件 [clk_1s.v](../attachment/clk_1s.v)与[约束文件](../attachment/constraints_labA_part1.xdc)。
+子模块 `clk_1s` 文件 [clk_1s.v](attachment/clk_1s.v)与[约束文件](attachment/constraints_labA_part1.xdc)。
 
 ## 十六位可逆同步二进制计数器
 
@@ -153,7 +153,7 @@ endmodule
 
 ### 下板验证
 
-使用顶层模块进行下板验证，需要调用 Lab7 中实现的 `DisplayNumber` 模块，使用[约束文件](../attachment/constraints_labA_part2.xdc)。：
+使用顶层模块进行下板验证，需要调用 Lab7 中实现的 `DisplayNumber` 模块，使用[约束文件](attachment/constraints_labA_part2.xdc)。：
 
 ```verilog linenums="1"
 module Top( 

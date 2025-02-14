@@ -45,7 +45,7 @@ Windows10 用户在**安装完成后**（可以正常打开 ISE 界面）需要�
 总的来说，目前 Windows11 上只有运行虚拟机（Windows10/Linux）并在虚拟机上安装和运行 ISE 这一条途径。其中有：直接运行官网 [Windows10 版本](https://www.xilinx.com/support/download/index.html/content/xilinx/en/downloadNav/vivado-design-tools/archive-ise.html)，在 WSL 上安装和使用 ISE，在 Hyper-V 虚拟机平台上运行 Windows10 操作系统 这几种途径。其中前两类实际为在 Linux 下运行，后一种在 Windows10 下运行。
 
 从实践上看，前两种方式在安装驱动上存在问题，目前仍未找到直接下板的方式，可能需要在本地完成项目后在机房电脑上进行下板。**推荐使用最后一种方式**，这一类方式的缺点是安装比较麻烦，配置环节较多，但是可以直接通过本地进行下板。
-具体安装方式见[文档](../attachment/Windows11_ISE_install.pdf)，感谢王信博同学进行安装实践并协助我进行功能测试以及书写这一文档🎉。
+具体安装方式见[文档](attachment/Windows11_ISE_install.pdf)，感谢王信博同学进行安装实践并协助我进行功能测试以及书写这一文档🎉。
 
 ### 可能遇到的问题与解决方案
 

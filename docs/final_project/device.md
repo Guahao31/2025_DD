@@ -57,7 +57,7 @@ VGA(Video Graphics Array) 协议是一种使用模拟信号的显示标准，我
 
 ### 使用
 
-这里提供一个可用的 VGA 驱动模块[代码](../attachment/vgac.v)，它来自老师提供的优秀工程。
+这里提供一个可用的 VGA 驱动模块[代码](attachment/vgac.v)，它来自老师提供的优秀工程。
 
 其模块接口如下：
 

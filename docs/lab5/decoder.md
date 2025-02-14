@@ -100,7 +100,7 @@
 
 ### 仿真 {: simulation-74LS138}
 
-使用 Vivado 新建工程，将 `D_74LS138/verilog/circuit/` 以及 `D_74LS138/verilog/gates/` 中的代码导入到工程中。使用[仿真文件](../attachment/D_74LS138_tb.v)对生成的 Verilog 代码进行仿真。
+使用 Vivado 新建工程，将 `D_74LS138/verilog/circuit/` 以及 `D_74LS138/verilog/gates/` 中的代码导入到工程中。使用[仿真文件](attachment/D_74LS138_tb.v)对生成的 Verilog 代码进行仿真。
 
 ## D_74LS138 模块的简单应用
 
@@ -141,7 +141,7 @@ $$
 
 绘制电路图，你可以使用和 Lab4 中完全相同的电路名、端口名，这样你不需要对仿真文件和约束文件进行任何修改；或者使用其他电路名和端口名，并自行修改仿真文件和约束文件。绘制完成后，导出为 Verilog 文件。
 
-使用上一节对 `D_74LS138` [仿真](#simulation-74LS138)时新建的工程或新建一个工程，将本节得到的代码文件导入到工程中。使用 Lab4 提供的[仿真文件](../../warmup/attachment/lab4_tb.v)进行仿真。确定器件仿真行为正常后，导入 Lab4 提供的[约束文件](../../warmup/attachment/constraints_lab4.xdc)，生成比特流并烧录到板上，查看现象。
+使用上一节对 `D_74LS138` [仿真](#simulation-74LS138)时新建的工程或新建一个工程，将本节得到的代码文件导入到工程中。使用 Lab4 提供的[仿真文件](../warmup/attachment/lab4_tb.v)进行仿真。确定器件仿真行为正常后，导入 Lab4 提供的[约束文件](../warmup/attachment/constraints_lab4.xdc)，生成比特流并烧录到板上，查看现象。
 
 ## 实验报告要求
 

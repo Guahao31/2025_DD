@@ -163,7 +163,7 @@ endmodule
 
 **通过 Verilog 实现的同学**，请参照上图直接书写 Verilog 代码，要求模块名 `DispNum`，端口名与上图相同。你可能需要了解模块实例化与 wire 信号的连续赋值。
 
-本节需要进行下板，你可以使用[约束文件](../attachment/constraints_lab6.xdc)，生成比特流并下载。
+本节需要进行下板，你可以使用[约束文件](attachment/constraints_lab6.xdc)，生成比特流并下载。
 
 ## 实验报告要求
 
