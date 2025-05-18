@@ -119,6 +119,8 @@ PS/2 将键盘编码分为通码(Make)与断码(Break)，通码代表“按下�
 
     <img src="../pic/PS2_keyboard.jpg">
 
+    图中 "Z" 的通码有误，应为 `0x1A`。
+
 
 观察几个按键行为加深理解（图片来自参考内容中的 [知乎文章](https://zhuanlan.zhihu.com/p/384221079)）。
 
