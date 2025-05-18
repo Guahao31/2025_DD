@@ -87,6 +87,28 @@ module vgac(
 * `rdn`：判断当前扫描到的地址是否为有效数据，低电平为有效
 * `hs, vs`：行同步信号与场同步信号，详见原理
 
+需要添加的约束参考：
+
+```
+set_property {PACKAGE_PIN T20  IOSTANDARD LVCMOS33  SLEW FAST} [get_ports {b[0]}]
+set_property {PACKAGE_PIN R20  IOSTANDARD LVCMOS33  SLEW FAST} [get_ports {b[1]}]
+set_property {PACKAGE_PIN T22  IOSTANDARD LVCMOS33  SLEW FAST} [get_ports {b[2]}]
+set_property {PACKAGE_PIN T23  IOSTANDARD LVCMOS33  SLEW FAST} [get_ports {b[3]}]
+
+set_property {PACKAGE_PIN R22  IOSTANDARD LVCMOS33  SLEW FAST} [get_ports {g[0]}]
+set_property {PACKAGE_PIN R23  IOSTANDARD LVCMOS33  SLEW FAST} [get_ports {g[1]}]
+set_property {PACKAGE_PIN T24  IOSTANDARD LVCMOS33  SLEW FAST} [get_ports {g[2]}]
+set_property {PACKAGE_PIN T25  IOSTANDARD LVCMOS33  SLEW FAST} [get_ports {g[3]}]
+
+set_property {PACKAGE_PIN N21  IOSTANDARD LVCMOS33  SLEW FAST} [get_ports {r[0]}]
+set_property {PACKAGE_PIN N22  IOSTANDARD LVCMOS33  SLEW FAST} [get_ports {r[1]}]
+set_property {PACKAGE_PIN R21  IOSTANDARD LVCMOS33  SLEW FAST} [get_ports {r[2]}]
+set_property {PACKAGE_PIN P21  IOSTANDARD LVCMOS33  SLEW FAST} [get_ports {r[3]}]
+
+set_property {PACKAGE_PIN M22  IOSTANDARD LVCMOS33  SLEW FAST} [get_ports {hs}]
+set_property {PACKAGE_PIN M21  IOSTANDARD LVCMOS33  SLEW FAST} [get_ports {vs}]
+```
+
 ## PS/2
 
 本节参考 [知乎文章](https://zhuanlan.zhihu.com/p/384221079) 及 [blog](https://embeddedthoughts.com/2016/07/05/fpga-keyboard-interface/)，还可参考 [blog](https://www.stepfpga.com/doc/ps2%E9%94%AE%E7%9B%98%E6%A8%A1%E5%9D%97)
