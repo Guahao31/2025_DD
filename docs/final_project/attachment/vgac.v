@@ -33,7 +33,7 @@ module vgac (vga_clk,clrn,d_in,row_addr,col_addr,rdn,r,g,b,hs,vs); // vgac
    end
     // signals, will be latched for outputs
     wire  [9:0] row    =  v_count - 10'd35;     // pixel ram row addr 
-    wire  [9:0] col    =  h_count - 10'd143;    // pixel ram col addr 
+    wire  [9:0] col    =  h_count - 10'd144;    // pixel ram col addr 
     wire        h_sync = (h_count > 10'd95);    //  96 -> 799
     wire        v_sync = (v_count > 10'd1);     //   2 -> 524
     wire        read   = (h_count > 10'd142) && // 143 -> 782
@@ -47,8 +47,8 @@ module vgac (vga_clk,clrn,d_in,row_addr,col_addr,rdn,r,g,b,hs,vs); // vgac
         rdn      <= ~read;     // read pixel (active low)
         hs       <=  h_sync;   // horizontal synchronization
         vs       <=  v_sync;   // vertical   synchronization
-        r        <=  rdn ? 4'h0 : d_in[3:0]; // 3-bit red
-        g        <=  rdn ? 4'h0 : d_in[7:4]; // 3-bit green
-        b        <=  rdn ? 4'h0 : d_in[11:8]; // 3-bit blue
+        r        <=  rdn ? 4'h0 : d_in[3:0]; // 4-bit red
+        g        <=  rdn ? 4'h0 : d_in[7:4]; // 4-bit green
+        b        <=  rdn ? 4'h0 : d_in[11:8]; // 4-bit blue
     end
 endmodule
